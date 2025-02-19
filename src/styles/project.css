@@ -1,0 +1,86 @@
+.projects-main {
+  border-radius: 10px;
+  background-color: #fff;
+  height: 92%;
+  width: 98%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.colour-block {
+  align-self: center;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 2%;
+  height: 100%;
+  background-color: rgb(225, 185, 65);
+}
+.main-con {
+  margin-left: 23px;
+  padding: 14px 0;
+  display: flex;
+  gap: 25px;
+  background-color: transparent;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  /* flex-wrap: wrap; */
+}
+.project1 {
+  flex-shrink: 0;
+  width: 30%;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(244, 244, 219);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  /* background: transparent;
+  border-radius: 10px;
+  padding: 10px;
+  height: 100%;
+  width: 30%;
+  background-color: rgb(243, 184, 38); */
+}
+.inside-div1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.project1 h3 {
+  background-color: rgb(225, 185, 65);
+  margin-bottom: 5px;
+  text-align: center;
+}
+/* .project1 p {
+  background-color: rgb(225, 185, 65);
+} */
+
+/* .button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+} */
+
+.scroll-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 2px;
+  color: #000000;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.scroll-button.left {
+  left: 0; /* Position the left button on the left side */
+}
+
+.scroll-button.right {
+  right: 0; /* Position the right button on the right side */
+}

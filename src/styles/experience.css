@@ -1,0 +1,63 @@
+.exper-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 20px; */
+  margin-top: 30px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  height: 480px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.skill-img {
+  /* position: absolute;
+  top: 81%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+  background-color: transparent; */
+  background-color: transparent;
+  height: 300px;
+  width: 24%;
+  margin-left: -20px;
+}
+.experience-content {
+  border-radius: 10px;
+  height: 98%;
+  width: 70%;
+  box-sizing: border-box;
+  padding: 20px 10px;
+  background-color: rgb(244, 244, 219);
+}
+.exper-head {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+}
+.exper-head p {
+  font-style: italic;
+}
+.points-div {
+  padding: 12px 20px;
+}
+.exp-list {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.exp-list li {
+  display: flex;
+  align-items: flex-start;
+}
+.icon1 {
+  background-color: transparent;
+  margin-top: 3px;
+  margin-right: 10px; /* Adds space between the icon and the text */
+  font-size: 15px; /* Adjust the icon size */
+  flex-shrink: 0;
+}

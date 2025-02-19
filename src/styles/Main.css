@@ -1,0 +1,117 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.main-page {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  height: 60vh;
+  display: flex;
+  padding: 0 50px;
+}
+.first-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.second-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.desig {
+  font-size: 40px;
+}
+.image1 {
+  height: 500px;
+  width: 500px;
+}
+.section-div {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+section {
+  margin-bottom: 30px;
+}
+
+.skill-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 40vh;
+  padding: 0 50px;
+  margin-top: 20px;
+}
+.experience-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  padding: 0px 50px;
+  margin-top: -40px;
+}
+.color-div {
+  background-color: rgb(225, 185, 65);
+  height: 100%;
+  width: 2%;
+  margin-top: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.reach-out {
+  font-size: 14px;
+  margin-top: 14px;
+  height: 40px;
+  width: 120px;
+  border-radius: 8px;
+  border: 0;
+  cursor: pointer;
+  background-color: rgb(243, 184, 38);
+}
+.reach-out:hover {
+  transform: scale(1.2);
+}
+.projects-section {
+  height: 80vh;
+  /* background-color: #9b1b1b; */
+  margin-top: -30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 50px;
+}
+.color-div2 {
+  background-color: rgb(225, 185, 65);
+  height: 80%;
+  width: 2%;
+  margin-top: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 15px;
+}
+.contact-section {
+  /* margin-top: -50px; */
+  margin-top: -20px;
+  /* padding: 0; */
+  min-height: 50vh;
+  /* background-color: rgb(225, 185, 65); */
+  padding: 0px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
